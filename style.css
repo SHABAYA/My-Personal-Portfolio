@@ -18,6 +18,7 @@
     background: var(--color);
     color: #333;
 }
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -317,6 +318,13 @@ about .row .counter .box ul li {
     overflow: hidden;
     cursor: pointer;
 }
+
+.portfolio .box-container .box h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000080;
+}
 .portfolio .box-container .box img {
     height: 100%;
     width: 100%;
@@ -324,6 +332,9 @@ about .row .counter .box ul li {
 }
 .portfolio .box-container .box:hover img {
     transform: scale(1.2);
+    margin-top: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 /* Portfolio Section Ends */
